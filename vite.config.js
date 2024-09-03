@@ -25,10 +25,10 @@ export default defineConfig({
         },
     },
     server: {
-        host: 'sistema-capta-brindes.test',
+        host: 'projeto-ypiranga.test',
         port: 5173,
         hmr: {
-            host: 'sistema-capta-brindes.test',
+            host: 'projeto-ypiranga.test',
         },
     }
 });

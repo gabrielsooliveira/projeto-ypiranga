@@ -1,13 +1,11 @@
 <script setup>
-import { Link, usePage, router } from '@inertiajs/vue3';
-import { route } from 'ziggy';
-import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
+import { Link } from '@inertiajs/vue3';
 import brandImageSrc from '@/assets/img/escudo.png';
 </script>
 
 <template>
     <header>
-        <div class="bg-secondary text-white px-5 text-end">
+        <div class="bg-secondary text-white px-3 text-end">
             <ul class="nav justify-content-end gap-3 fs-7">
                 <li>
                     <a class="link-light text-decoration-none" href="#"><font-awesome-icon :icon="['fab', 'whatsapp']" /> (XX) XXXXX-XXXX</a>
@@ -18,10 +16,10 @@ import brandImageSrc from '@/assets/img/escudo.png';
             </ul>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Offcanvas navbar large">
-            <div class="container-fluid">
-                <Link href="route('home')">
-                    <img :src="brandImageSrc" alt="Escudo do Ypiranga" class="img-fluid" width="57">
-                </Link>
+            <div class="container-fluid  justify-content-end">
+                <!-- <Link href="route('home')">
+                    <img :src="brandImageSrc" alt="Escudo do Ypiranga" class="img-fluid" width="30">
+                </Link> -->
                 <button class="nav-link link-secondary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <font-awesome-icon :icon="['fas', 'bars']" size="lg"/>
                 </button>

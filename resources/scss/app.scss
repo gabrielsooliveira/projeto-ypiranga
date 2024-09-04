@@ -3,10 +3,10 @@
 
 $custom-colors: (
     "primary": #ffc600,
-    "secondary": #1b1500
+    "secondary": #000000
 );
 
-$font-sizes: map-merge($font-sizes, (7: 0.760rem, 8: 0.585rem));
+$font-sizes: map-merge($font-sizes, (7: 0.785rem, 8: 0.585rem));
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import 'bootstrap/scss/bootstrap';
